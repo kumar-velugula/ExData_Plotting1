@@ -112,3 +112,22 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+## Code Files 
+
+There is a separate R code file (`plot1.R`, `plot2.R`, `plot3.R`, `plot4.R`) that each constructs its corresponding plot. Each code file on its run produces respective files such as `plot1.png`, `plot2.png`, `plot3.png` and `plot4.png`.
+
+Code file includes code and comments for reading the data from the source, unzips to local working directory so that the plot can be fully reproduced. Code file also include the code that creates the PNG file.
+
+* Running Code Files
+After opening the corresponding code file in R, source the code file and call the functions as below
+>source("plot1.R")
+>plot1()
+
+>source("plot2.R")
+>plot2()
+
+>source("plot3.R")
+>plot3()
+
+>source("plot4.R")
+>plot4()
