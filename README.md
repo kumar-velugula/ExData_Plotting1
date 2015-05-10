@@ -121,14 +121,14 @@ Code file includes code and comments for reading the data from the source, unzip
 * Running Code Files
 After opening the corresponding code file in R, source the code file and call the functions as below
 
-source("plot1.R")
+source("plot1.R");
 plot1()
 
-source("plot2.R")
+source("plot2.R");
 plot2()
 
-source("plot3.R")
+source("plot3.R");
 plot3()
 
-source("plot4.R")
+source("plot4.R");
 plot4()
